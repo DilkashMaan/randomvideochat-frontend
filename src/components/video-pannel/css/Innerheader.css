@@ -1,0 +1,92 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 10px 30px;
+  color: white;
+  /* height: 60px; */
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 35px;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ccc;
+  position: relative;
+}
+
+.nav-links a.active {
+  color: white;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pill-btn {
+  background: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 999px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #111;
+  cursor: pointer;
+}
+
+.pill-btn .icon {
+  margin-right: 8px;
+}
+
+.profile-badge {
+      position: relative;
+    font-size: 40px;
+    color: #ccc;
+    height: 50px;
+}
+
+.status-dot {
+  position: absolute;
+  bottom: 2px;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  background: #00ff88;
+  border-radius: 50%;
+  border: 2px solid #111;
+}
+
+.profile-wrapper {
+    height: 50px;
+    position: relative;
+}
+
+.profile-wrapper .profile-badge svg.user-icon {
+     margin-bottom: 20px;
+     cursor: pointer;
+  }

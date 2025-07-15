@@ -1,0 +1,33 @@
+:root {
+  --blackish: #121212;
+  --whitish: #E0E0E0;
+  --white:#FFFFFF;
+  --blue:#1E88E5 ;
+  --darkblue:#007ae4 ;
+  --card:#2a2a2a;
+    font-family: Helvetica,Arial, sans-serif;
+  
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.pos-center {
+  /* position: fixed; */
+  /* top: calc(50% - 40px); */
+  /* left: calc(50% - 40px); */
+      display: flex;
+    justify-content: center;
+}
+
+

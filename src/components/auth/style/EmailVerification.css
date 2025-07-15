@@ -1,0 +1,83 @@
+.verify-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.verify-container h2 {
+  margin-bottom: 10px;
+}
+
+.otp-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.otp-box input {
+  width: 45px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+  outline: none;
+  background-color: #222;
+  color: white;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.otp-box input:focus {
+  border-color: #00ff99;
+}
+
+.verify-btn {
+  margin-top: 10px;
+  background-color: #00ff99;
+  color: #111;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.verify-btn:hover {
+  background-color: #00dd88;
+}
+
+/* Extend your previous EmailVerification.css */
+
+.resend-section {
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+.resend-btn {
+  background: none;
+  color: #00ff99;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.resend-btn:hover {
+  text-decoration: underline;
+}
+
+.resend-disabled {
+  color: #888;
+}
+
+p.show-message{
+    margin: 10px 0px;
+}

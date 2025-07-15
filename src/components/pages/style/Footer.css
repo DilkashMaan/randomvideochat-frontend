@@ -1,0 +1,72 @@
+.footer-section {
+  background-color: var(--card);
+}
+
+.footer-section .container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 30px 10px;
+  align-items: center;
+}
+
+.footer-section .logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00c6ff;
+  letter-spacing: 1px;
+  margin: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-section .social-icons {
+  font-size: 35px;
+  color: #00c6ff;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section .social-icons img {
+  margin: 0px 10px;
+  width: 40px;
+}
+
+.footer-section .copyright {
+  text-align: center;
+  border-top: 1px solid rgb(56, 56, 56);
+  padding: 10px;
+}
+
+.footer-section .copyright p {
+  font-size: 15px;
+  margin: 0px;
+  color: var(--white);
+}
+
+@media (min-width: 580px) and (max-width: 1440px) {
+  .footer-section .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer-section .container {
+    padding: 20px 10px;
+  }
+
+  .footer-section .social-icons svg {
+    margin: 0px 5px;
+  }
+
+  .footer-section .logo a {
+    font-size: 20px !important;
+    margin: 0px 0px;
+  }
+
+  .footer-section .social-icons img {
+    margin: 0px 5px;
+    width: 30px;
+  }
+}

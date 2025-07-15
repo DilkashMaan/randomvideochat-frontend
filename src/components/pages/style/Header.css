@@ -1,0 +1,72 @@
+#header {
+  width: 100%;
+  z-index: 10;
+  background: var(--blackish);
+  backdrop-filter: blur(8px);
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#header .container {
+  box-sizing: border-box;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header .logo a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #00c6ff;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+#header .header-buttons button {
+  margin-left: 12px;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#header .header-buttons button:hover {
+  transform: scale(1.05);
+}
+
+#header .user-account img{
+  width: 40px;
+}
+
+@media screen and (max-width: 580px) {
+  #header .container {
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    gap: 15px;
+    padding: 15px 0px;
+  }
+
+  #header .header-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 0px;
+  }
+
+  #header .logo a {
+    font-size: 20px;
+    margin: 0px 0px;
+  }
+
+  #header .header-buttons button {
+    margin-left: 0px;
+    padding: 8px 15px;
+  }
+}

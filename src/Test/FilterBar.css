@@ -1,0 +1,137 @@
+.filter-bar {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: #111;
+  align-items: center;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.arrow {
+  margin-left: auto;
+}
+
+.start-chat-btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.avatars {
+  display: flex;
+  margin-right: 10px;
+}
+
+.avatar {
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -10px;
+  border: 2px solid white;
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal {
+  background: #1d1d1d;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.gender-options {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.gender-card {
+  background: #2e2e2e;
+  padding: 15px;
+  border-radius: 15px;
+  flex: 1;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.gender-card.selected {
+  border: 2px solid #00ff90;
+  opacity: 1;
+}
+
+.gender-card img {
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.green-btn {
+  background-color: #00ff90;
+  color: black;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.gray-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+}
+
+/* Interests */
+.interest-list {
+  text-align: left;
+  margin: 20px 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.interest-radio {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.interest-radio.checked {
+  background-color: #00ff90;
+  color: black;
+}
